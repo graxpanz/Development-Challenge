@@ -1,0 +1,289 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  padding: 20px;
+}
+
+.washing-machines {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.washing-machine {
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.washing-machine img {
+  width: 100%;
+  height: auto;
+}
+
+.coin-slot,
+#start-button {
+  margin-top: 10px;
+}
+
+#status {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#coins {
+  margin-top: 10px;
+  color: green;
+}
+
+#insert-coin1 {
+  background-color: #2456b3; 
+  color: white; 
+  padding: 10px 20px;
+  border: none; 
+  border-radius: 5px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  transition: background-color 0.3s, box-shadow 0.3s; 
+}
+
+#insert-coin1:hover {
+  background-color: #17ce6d; 
+}
+
+#insert-coin1:active {
+  background-color: #17ce6d;
+  transform: translateY(2px);
+}
+
+.note {
+  color: red;
+}
+
+#insert-coin2 {
+  background-color: #2456b3; 
+  color: white; 
+  padding: 10px 20px;
+  border: none; 
+  border-radius: 5px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  transition: background-color 0.3s, box-shadow 0.3s; 
+}
+
+#insert-coin2:hover {
+  background-color: #17ce6d; 
+}
+
+#insert-coin2:active {
+  background-color: #17ce6d;
+  transform: translateY(2px);
+}
+
+#insert-coin3 {
+  background-color: #2456b3; 
+  color: white; 
+  padding: 10px 20px;
+  border: none; 
+  border-radius: 5px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  transition: background-color 0.3s, box-shadow 0.3s; 
+}
+
+#insert-coin3:hover {
+  background-color: #17ce6d; 
+}
+
+#insert-coin3:active {
+  background-color: #17ce6d;
+  transform: translateY(2px);
+}
+
+#insert-coin4 {
+  background-color: #2456b3; 
+  color: white; 
+  padding: 10px 20px;
+  border: none; 
+  border-radius: 5px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  transition: background-color 0.3s, box-shadow 0.3s; 
+}
+
+#insert-coin4:hover {
+  background-color: #17ce6d; 
+}
+
+#insert-coin4:active {
+  background-color: #17ce6d;
+  transform: translateY(2px);
+}
+
+#insert-coin5 {
+  background-color: #2456b3; 
+  color: white; 
+  padding: 10px 20px;
+  border: none; 
+  border-radius: 5px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  transition: background-color 0.3s, box-shadow 0.3s; 
+}
+
+#insert-coin5:hover {
+  background-color: #17ce6d; 
+}
+
+#insert-coin5:active {
+  background-color: #17ce6d;
+  transform: translateY(2px);
+}
+
+#start-button1 {
+  background-color: #f44336;
+  color: white; 
+  padding: 10px 20px; 
+  border: none;
+  border-radius: 5px; 
+  font-size: 16px; 
+  cursor: not-allowed;
+  opacity: 0.6;
+  transition: background-color 0.3s, opacity 0.3s;
+}
+
+#start-button1:enabled {
+  background-color: #4CAF50; 
+  cursor: pointer; 
+  opacity: 1; 
+}
+
+#start-button1:enabled:hover {
+  background-color: #45a049;
+}
+
+#start-button1:enabled:active {
+  background-color: #3e8e41;
+  transform: translateY(2px);
+}
+
+#start-button2 {
+  background-color: #f44336;
+  color: white; 
+  padding: 10px 20px; 
+  border: none;
+  border-radius: 5px; 
+  font-size: 16px; 
+  cursor: not-allowed;
+  opacity: 0.6;
+  transition: background-color 0.3s, opacity 0.3s;
+}
+
+#start-button2:enabled {
+  background-color: #4CAF50; 
+  cursor: pointer; 
+  opacity: 1; 
+}
+
+#start-button2:enabled:hover {
+  background-color: #45a049;
+}
+
+#start-button2:enabled:active {
+  background-color: #3e8e41;
+  transform: translateY(2px);
+}
+
+#start-button3 {
+  background-color: #f44336;
+  color: white; 
+  padding: 10px 20px; 
+  border: none;
+  border-radius: 5px; 
+  font-size: 16px; 
+  cursor: not-allowed;
+  opacity: 0.6;
+  transition: background-color 0.3s, opacity 0.3s;
+}
+
+#start-button3:enabled {
+  background-color: #4CAF50; 
+  cursor: pointer; 
+  opacity: 1; 
+}
+
+#start-button3:enabled:hover {
+  background-color: #45a049;
+}
+
+#start-button3:enabled:active {
+  background-color: #3e8e41;
+  transform: translateY(2px);
+}
+
+#start-button4 {
+  background-color: #f44336;
+  color: white; 
+  padding: 10px 20px; 
+  border: none;
+  border-radius: 5px; 
+  font-size: 16px; 
+  cursor: not-allowed;
+  opacity: 0.6;
+  transition: background-color 0.3s, opacity 0.3s;
+}
+
+#start-button4:enabled {
+  background-color: #4CAF50; 
+  cursor: pointer; 
+  opacity: 1; 
+}
+
+#start-button4:enabled:hover {
+  background-color: #45a049;
+}
+
+#start-button4:enabled:active {
+  background-color: #3e8e41;
+  transform: translateY(2px);
+}
+
+#start-button5 {
+  background-color: #f44336;
+  color: white; 
+  padding: 10px 20px; 
+  border: none;
+  border-radius: 5px; 
+  font-size: 16px; 
+  cursor: not-allowed;
+  opacity: 0.6;
+  transition: background-color 0.3s, opacity 0.3s;
+}
+
+#start-button5:enabled {
+  background-color: #4CAF50; 
+  cursor: pointer; 
+  opacity: 1; 
+}
+
+#start-button5:enabled:hover {
+  background-color: #45a049;
+}
+
+#start-button5:enabled:active {
+  background-color: #3e8e41;
+  transform: translateY(2px);
+}
